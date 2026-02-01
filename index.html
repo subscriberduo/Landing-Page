@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>xForts – Premium Domain Investment & Brokerage</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* Base */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6f8;
+    color: #111827;
+    overflow-x: hidden;
+}
+
+/* Hero Section */
+header {
+    position: relative;
+    background: linear-gradient(135deg, #0f4ca0, #1a59c0);
+    color: white;
+    text-align: center;
+    padding: 160px 20px 120px 20px; /* More bottom padding to separate from first section */
+    overflow: hidden;
+}
+header::before, header::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.15;
+}
+header::before {
+    width: 500px; height: 500px; background: white;
+    top: -120px; left: -150px;
+}
+header::after {
+    width: 700px; height: 700px; background: #093a7a;
+    bottom: -200px; right: -200px;
+    animation: floatShapes 20s infinite alternate ease-in-out;
+}
+@keyframes floatShapes {
+    0% { transform: translateY(0) translateX(0); }
+    100% { transform: translateY(-20px) translateX(20px); }
+}
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards 0.2s;
+}
+header p {
+    font-size: 1.3rem;
+    max-width: 650px;
+    margin: 0 auto 50px auto; /* Extra margin-bottom for spacing */
+    line-height: 1.5;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards 0.4s;
+}
+.linkedin-button {
+    display: inline-block;
+    padding: 18px 40px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #093a7a;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards 0.6s;
+}
+.linkedin-button:hover {
+    background-color: #06285a;
+    transform: translateY(-3px) scale(1.03);
+}
+
+/* Main */
+main {
+    max-width: 1000px;
+    margin: -80px auto 80px auto;
+    padding: 0 20px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 70px 50px; /* more padding for premium look */
+    border-radius: 16px;
+    margin-bottom: 50px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s forwards;
+}
+section:nth-of-type(1) { animation-delay: 0.2s; }
+section:nth-of-type(2) { animation-delay: 0.4s; }
+section:nth-of-type(3) { animation-delay: 0.6s; }
+section h2 {
+    color: #0f4ca0;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+section p, section ul {
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+section ul li {
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 26px;
+}
+section ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #0f4ca0;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+footer a {
+    color: #0f4ca0;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive */
+@media(max-width:768px){
+    header h1 { font-size: 2.2rem; }
+    header p { font-size: 1.1rem; margin-bottom: 40px; }
+    section {padding: 50px 20px;}
+    header::before, header::after { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>xForts</h1>
+    <p>Professional Domain Investment & Brokerage. We help clients identify, manage, and acquire high-value digital assets with professionalism and transparency.</p>
+    <a class="linkedin-button" href="https://www.linkedin.com/in/alexforts/" target="_blank" rel="noopener noreferrer">Contact via LinkedIn</a>
+</header>
+
+<main>
+<section>
+    <h2>Our Expertise</h2>
+    <p>xForts provides end-to-end domain advisory and investment services. We specialize in identifying valuable digital assets, managing portfolios, and guiding clients through premium domain opportunities with complete transparency and professionalism.</p>
+</section>
+
+<section>
+    <h2>Why Work With xForts</h2>
+    <ul>
+        <li>Professional guidance on digital assets and domain strategy</li>
+        <li>Secure and transparent transactions with trusted platforms</li>
+        <li>Long-term stewardship and risk mitigation</li>
+        <li>Expert insights to maximize the value of digital assets</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Get in Touch</h2>
+    <p>Reach out directly via LinkedIn to discuss opportunities, collaborations, or advisory services. We respond promptly and professionally.</p>
+    <a class="linkedin-button" href="https://www.linkedin.com/in/alexforts/" target="_blank" rel="noopener noreferrer">Contact via LinkedIn</a>
+</section>
+</main>
+
+<footer>
+    © 2026 xForts – Domain Investment & Brokerage
+</footer>
+
+</body>
+</html>
